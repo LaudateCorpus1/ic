@@ -527,7 +527,7 @@ dependencies = [
  "lalrpop-util",
  "leb128",
  "logos",
- "num-bigint 0.4.2",
+ "num-bigint 0.4.3",
  "num-traits",
  "num_enum",
  "paste 1.0.5",
@@ -1246,7 +1246,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a4cccf60bb98c0fca115a581f894aed0e43fa55bf289fdac5599bec440bb4fd6"
 dependencies = [
  "nom 6.1.2",
- "num-bigint 0.4.2",
+ "num-bigint 0.4.3",
  "num-traits",
  "syn 1.0.80",
 ]
@@ -1257,7 +1257,7 @@ version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c73af209b6a5dc8ca7cbaba720732304792cddc933cfea3d74509c2b1ef2f436"
 dependencies = [
- "num-bigint 0.4.2",
+ "num-bigint 0.4.3",
  "num-traits",
  "syn 1.0.80",
 ]
@@ -1270,7 +1270,7 @@ checksum = "2d7ededb7525bb4114bc209685ce7894edc2965f4914312a1ea578a645a237f0"
 dependencies = [
  "der-oid-macro 0.4.0",
  "nom 6.1.2",
- "num-bigint 0.4.2",
+ "num-bigint 0.4.3",
  "num-traits",
  "rusticata-macros 3.2.0",
 ]
@@ -1283,7 +1283,7 @@ checksum = "9807efb310ce4ea172924f3a69d82f9fd6c9c3a19336344591153e665b31c43e"
 dependencies = [
  "der-oid-macro 0.5.0",
  "nom 7.0.0",
- "num-bigint 0.4.2",
+ "num-bigint 0.4.3",
  "num-traits",
  "rusticata-macros 4.0.0",
 ]
@@ -2804,7 +2804,7 @@ dependencies = [
  "ic-crypto-internal-basic-sig-der-utils",
  "ic-crypto-sha",
  "ic-types 0.8.0",
- "num-bigint 0.4.2",
+ "num-bigint 0.4.3",
  "num-traits",
  "rsa 0.4.0",
  "serde",
@@ -5429,9 +5429,9 @@ dependencies = [
 
 [[package]]
 name = "num-bigint"
-version = "0.4.2"
+version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "74e768dff5fb39a41b3bcd30bb25cf989706c90d028d1ad71971987aa309d535"
+checksum = "f93ab6289c7b344a8a9f60f88d80aa20032336fe78da341afc91c8a2341fc75f"
 dependencies = [
  "autocfg 1.0.0",
  "num-integer",
@@ -7292,7 +7292,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8eb4ea60fb301dc81dfc113df680571045d375ab7345d171c5dc7d7e13107a80"
 dependencies = [
  "chrono",
- "num-bigint 0.4.2",
+ "num-bigint 0.4.3",
  "num-traits",
  "thiserror",
 ]
