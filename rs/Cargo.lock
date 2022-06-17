@@ -597,7 +597,7 @@ dependencies = [
  "libc",
  "num-integer",
  "num-traits",
- "time",
+ "time 0.1.43",
  "winapi 0.3.9",
 ]
 
@@ -1097,7 +1097,7 @@ checksum = "00affe7f6ab566df61b4be3ce8cf16bc2576bca0963ceb0955e45d514bf9a279"
 dependencies = [
  "bstr",
  "csv-core",
- "itoa",
+ "itoa 0.4.5",
  "ryu",
  "serde",
 ]
@@ -2129,7 +2129,7 @@ checksum = "1323096b05d41827dadeaee54c9981958c0f94e670bc94ed80037d1a7b8b186b"
 dependencies = [
  "bytes",
  "fnv",
- "itoa",
+ "itoa 0.4.5",
 ]
 
 [[package]]
@@ -2185,7 +2185,7 @@ dependencies = [
  "http-body",
  "httparse",
  "httpdate",
- "itoa",
+ "itoa 0.4.5",
  "pin-project-lite",
  "socket2 0.4.0",
  "tokio",
@@ -2653,7 +2653,7 @@ dependencies = [
  "serde_bytes",
  "serde_cbor",
  "serde_json",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
  "slog",
  "slog-scope",
  "strum 0.18.0",
@@ -2689,7 +2689,7 @@ dependencies = [
  "ic-crypto-internal-test-vectors",
  "ic-crypto-secrets-containers",
  "ic-types 0.8.0",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
 ]
 
 [[package]]
@@ -2709,7 +2709,7 @@ dependencies = [
  "serde",
  "serde_bytes",
  "serde_cbor",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
  "strum 0.18.0",
  "zeroize",
 ]
@@ -2730,7 +2730,7 @@ dependencies = [
  "proptest-derive",
  "serde",
  "serde_bytes",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
  "strum 0.18.0",
  "zeroize",
 ]
@@ -2768,7 +2768,7 @@ dependencies = [
  "rand_core 0.5.1",
  "serde",
  "serde_cbor",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
  "strum 0.18.0",
  "wycheproof",
  "zeroize",
@@ -2793,7 +2793,7 @@ dependencies = [
  "serde",
  "serde_bytes",
  "serde_cbor",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
 ]
 
 [[package]]
@@ -2809,7 +2809,7 @@ dependencies = [
  "rsa 0.4.0",
  "serde",
  "serde_json",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
 ]
 
 [[package]]
@@ -2887,7 +2887,7 @@ dependencies = [
  "rand_core 0.5.1",
  "serde",
  "serde_cbor",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
  "slog",
  "strum 0.18.0",
  "strum_macros 0.18.0",
@@ -3013,7 +3013,7 @@ dependencies = [
  "serde_bytes",
  "serde_cbor",
  "serde_json",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
  "strum_macros 0.18.0",
  "zeroize",
 ]
@@ -3214,7 +3214,7 @@ dependencies = [
  "ic-crypto-internal-basic-sig-ed25519",
  "ic-crypto-internal-types",
  "ic-protobuf",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
 ]
 
 [[package]]
@@ -3725,7 +3725,7 @@ dependencies = [
  "rand_core 0.5.1",
  "serde",
  "sha3",
- "simple_asn1 0.5.4",
+ "simple_asn1 0.6.1",
 ]
 
 [[package]]
@@ -4495,7 +4495,7 @@ dependencies = [
  "ahash",
  "atty",
  "indexmap",
- "itoa",
+ "itoa 0.4.5",
  "lazy_static",
  "log",
  "num-format",
@@ -4610,6 +4610,12 @@ name = "itoa"
 version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b8b7a7c0c47db5545ed3fef7468ee7bb5b74691498139e4b3f6a20685dc6dd8e"
+
+[[package]]
+name = "itoa"
+version = "1.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "112c678d4050afce233f4f2852bb2eb519230b3cf12f33585275537d7e41578d"
 
 [[package]]
 name = "jemalloc-ctl"
@@ -4803,9 +4809,9 @@ dependencies = [
 
 [[package]]
 name = "libc"
-version = "0.2.103"
+version = "0.2.126"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd8f7255a17a627354f321ef0055d63b898c6fb27eff628af4d1b66b7331edf6"
+checksum = "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836"
 
 [[package]]
 name = "libloading"
@@ -5482,7 +5488,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bafe4179722c2894288ee77a9f044f02811c86af699344c498b0840c698a2465"
 dependencies = [
  "arrayvec 0.4.12",
- "itoa",
+ "itoa 0.4.5",
 ]
 
 [[package]]
@@ -5558,6 +5564,15 @@ dependencies = [
  "proc-macro2 1.0.27",
  "quote 1.0.7",
  "syn 1.0.80",
+]
+
+[[package]]
+name = "num_threads"
+version = "0.1.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2819ce041d2ee131036f4fc9d6ae7ae125a3a40e97ba64d04fe799ad9dabbb44"
+dependencies = [
+ "libc",
 ]
 
 [[package]]
@@ -6317,6 +6332,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8533f14c8382aaad0d592c812ac3b826162128b65662331e1127b45c3d18536b"
 dependencies = [
  "memchr",
+]
+
+[[package]]
+name = "quickcheck"
+version = "1.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "588f6378e4dd99458b60ec275b4477add41ce4fa9f64dcba6f15adccb19b50d6"
+dependencies = [
+ "rand 0.8.3",
 ]
 
 [[package]]
@@ -7111,7 +7135,7 @@ version = "1.0.68"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0f690853975602e1bfe1ccbf50504d67174e3bcf340f23b5ea9992e0587a52d8"
 dependencies = [
- "itoa",
+ "itoa 0.4.5",
  "ryu",
  "serde",
 ]
@@ -7123,7 +7147,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "edfa57a7f8d9c1d260a549e7224100f6c43d43f9103e06dd8b4095a9b2b43ce9"
 dependencies = [
  "form_urlencoded",
- "itoa",
+ "itoa 0.4.5",
  "ryu",
  "serde",
 ]
@@ -7295,6 +7319,18 @@ dependencies = [
  "num-bigint 0.4.2",
  "num-traits",
  "thiserror",
+]
+
+[[package]]
+name = "simple_asn1"
+version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4a762b1c38b9b990c694b9c2f8abe3372ce6a9ceaae6bca39cfc46e054f45745"
+dependencies = [
+ "num-bigint 0.4.2",
+ "num-traits",
+ "thiserror",
+ "time 0.3.9",
 ]
 
 [[package]]
@@ -7824,7 +7860,7 @@ checksum = "71b370904e74ab0a4264c6618d728a701c98bd4cd665eb4b4cc63d2c38034a0d"
 dependencies = [
  "lazy_static",
  "serde_json",
- "time",
+ "time 0.1.43",
 ]
 
 [[package]]
@@ -7845,6 +7881,25 @@ dependencies = [
  "libc",
  "winapi 0.3.9",
 ]
+
+[[package]]
+name = "time"
+version = "0.3.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c2702e08a7a860f005826c6815dcac101b19b5eb330c27fe4a5928fec1d20ddd"
+dependencies = [
+ "itoa 1.0.2",
+ "libc",
+ "num_threads",
+ "quickcheck",
+ "time-macros",
+]
+
+[[package]]
+name = "time-macros"
+version = "0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "42657b1a6f4d817cda8e7a0ace261fe0cc946cf3a80314390b22cc61ae080792"
 
 [[package]]
 name = "tiny_http"

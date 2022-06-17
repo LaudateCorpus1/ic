@@ -43,7 +43,7 @@ rand_chacha = "0.2.2"
 rand_core = "0.5.1"
 serde = { version = "1.0.99", features = [ "derive" ] }
 serde_cbor = "0.11.1"
-simple_asn1 = "0.5.4"
+simple_asn1 = "0.6.1"
 slog = { version = "2.5.2", features = ["nested-values", "max_level_trace", "release_max_level_debug"] }
 strum = "0.18.0"
 strum_macros = "0.18.0"
